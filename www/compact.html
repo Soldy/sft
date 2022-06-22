@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script>
+             let DV_some_number = 1;
+             const DK_some_constant = 'Hello echo';
+             const DQ_somePrototype = function(){
+                 this.DF_print = function(){
+                     document.getElementsByClassName('DC_basic-class')[0].innerHTML = (
+                         DK_some_constant+
+                         DV_count
+                     );
+                     DV_count+=DV_some_number;
+
+                 }
+                 let DV_count = 0;
+
+             }
+             const DF_someFunction = function(){
+                 const DF_lopper = new DQ_somePrototype();
+                 setInterval(DF_looper.DF_print, 2000);
+             }
+             window.onload = DF_someFunction;
+        </script>
+        <style>
+             .DC_basic-class{
+                font-size:25px;
+                background:#000;
+                color:#ddd;
+                display:block;
+                margin:0;
+                border:0;
+             }
+
+        </style>
+    </head>
+    <body>
+        <nav class="DC_basic-class" id="DI_basic-id">
+             Hello Silence.
+        </nav>
+    </body>
+</html>
