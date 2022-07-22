@@ -192,4 +192,5 @@ int main(int argc, char *argv[]){
     ansi16->test();
     ansi255->test();
     ansi24bit->test();
+    return 0;
 };
